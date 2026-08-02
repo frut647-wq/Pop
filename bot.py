@@ -18,7 +18,7 @@ from telegram.ext import (
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 log = logging.getLogger(__name__)
 
-BOT_TOKEN = os.environ.get("8831054190:AAGr2EcBY4OAAdWcIO9LO-QyZSqOfzyRurI", "")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
 ADMIN_IDS = {
     int(x) for x in os.environ.get("ADMIN_IDS", "").replace(" ", "").split(",") if x.isdigit()
 }
