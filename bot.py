@@ -27,7 +27,7 @@ ADMIN_IDS = {
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DB_PATH = os.path.join(BASE_DIR, "data", "farm.db")
 
-START_COINS = 500
+START_COINS = 10000
 START_FLOUR = 50
 START_STORAGE = 1000
 STORAGE_UPGRADE_COST = 250
@@ -55,26 +55,26 @@ LIVESTOCK_BUILDINGS = {
 }
 
 FARM_BUILDINGS = {
-    "مزرعه_گندم":      {"emoji": "🌾", "buy_cost": 1500, "crop": "گندم",      "plant_cost": 12, "plant_seconds": 900, "yield_qty": 50},
-    "مزرعه_برنج":      {"emoji": "🍚", "buy_cost": 1500, "crop": "برنج",      "plant_cost": 15, "plant_seconds": 900, "yield_qty": 50},
-    "مزرعه_نیشکر":     {"emoji": "🎋", "buy_cost": 1500, "crop": "نیشکر",     "plant_cost": 14, "plant_seconds": 900, "yield_qty": 50},
-    "مزرعه_سیب_زمینی": {"emoji": "🥔", "buy_cost": 1500, "crop": "سیب_زمینی", "plant_cost": 13, "plant_seconds": 900, "yield_qty": 50},
+    "مزرعه_گندم":      {"emoji": "🌾", "buy_cost": 9000, "crop": "گندم",      "plant_cost": 12, "plant_seconds": 900, "yield_qty": 50},
+    "مزرعه_برنج":      {"emoji": "🍚", "buy_cost": 13000, "crop": "برنج",      "plant_cost": 15, "plant_seconds": 900, "yield_qty": 50},
+    "مزرعه_نیشکر":     {"emoji": "🎋", "buy_cost": 15000, "crop": "نیشکر",     "plant_cost": 14, "plant_seconds": 900, "yield_qty": 50},
+    "مزرعه_سیب_زمینی": {"emoji": "🥔", "buy_cost": 17000, "crop": "سیب_زمینی", "plant_cost": 13, "plant_seconds": 900, "yield_qty": 50},
 }
 
 FACTORY_BUILDINGS = {
-    "کارخونه_خمیر":    {"emoji": "🥟", "buy_cost": 1000, "input": "ارد",      "input_qty": 20, "output": "خمیر",  "output_qty": 15, "seconds": 300},
-    "کارخونه_نان":     {"emoji": "🍞", "buy_cost": 1200, "input": "خمیر",     "input_qty": 15, "output": "نان",   "output_qty": 15, "seconds": 300},
-    "کارخونه_نیمرو":   {"emoji": "🍳", "buy_cost": 800,  "input": "تخم_مرغ",  "input_qty": 10, "output": "نیمرو", "output_qty": 10, "seconds": 180},
-    "کارخونه_نخ":      {"emoji": "🧵", "buy_cost": 1000, "input": "پشم",      "input_qty": 100, "output": "نخ",   "output_qty": 40, "seconds": 300},
-    "کارخونه_پارچه":   {"emoji": "🧣", "buy_cost": 1200, "input": "نخ",       "input_qty": 40, "output": "پارچه", "output_qty": 40, "seconds": 300},
-    "کارخونه_ماست":    {"emoji": "🥣", "buy_cost": 900,  "input": "شیر",      "input_qty": 100, "output": "ماست", "output_qty": 40, "seconds": 300},
-    "کارخونه_پنیر":    {"emoji": "🧀", "buy_cost": 1100, "input": "شیر",      "input_qty": 80, "output": "پنیر",  "output_qty": 30, "seconds": 350},
-    "کارخونه_کیک":     {"emoji": "🎂", "buy_cost": 1000, "input": "شکر",      "input_qty": 30, "output": "کیک",   "output_qty": 10, "seconds": 400},
-    "کارخونه_پیتزا":   {"emoji": "🍕", "buy_cost": 1300, "input": "پنیر",     "input_qty": 20, "output": "پیتزا", "output_qty": 10, "seconds": 400},
-    "کارخونه_سوسیس":   {"emoji": "🌭", "buy_cost": 700,  "input": "ارد",      "input_qty": 15, "output": "سوسیس", "output_qty": 10, "seconds": 200},
-    "کارخونه_هات_داگ": {"emoji": "🌭", "buy_cost": 900,  "input": "سوسیس",    "input_qty": 10, "output": "هات_داگ", "output_qty": 10, "seconds": 250},
-    "کارخونه_فرنچ":    {"emoji": "🍟", "buy_cost": 800,  "input": "سیب_زمینی", "input_qty": 30, "output": "فرنچ", "output_qty": 20, "seconds": 200},
-    "کارخونه_لباس":    {"emoji": "👚", "buy_cost": 1400, "input": "پارچه",    "input_qty": 20, "output": "لباس",  "output_qty": 10, "seconds": 400},
+    "کارخونه_خمیر":    {"emoji": "🥟", "buy_cost": 7000, "input": "ارد",      "input_qty": 20, "output": "خمیر",  "output_qty": 15, "seconds": 300},
+    "کارخونه_نان":     {"emoji": "🍞", "buy_cost": 12000, "input": "خمیر",     "input_qty": 15, "output": "نان",   "output_qty": 15, "seconds": 300},
+    "کارخونه_نیمرو":   {"emoji": "🍳", "buy_cost": 13000,  "input": "تخم_مرغ",  "input_qty": 10, "output": "نیمرو", "output_qty": 10, "seconds": 180},
+    "کارخونه_نخ":      {"emoji": "🧵", "buy_cost": 15000, "input": "پشم",      "input_qty": 100, "output": "نخ",   "output_qty": 40, "seconds": 300},
+    "کارخونه_پارچه":   {"emoji": "🧣", "buy_cost": 12000, "input": "نخ",       "input_qty": 40, "output": "پارچه", "output_qty": 40, "seconds": 300},
+    "کارخونه_ماست":    {"emoji": "🥣", "buy_cost": 9000,  "input": "شیر",      "input_qty": 100, "output": "ماست", "output_qty": 40, "seconds": 300},
+    "کارخونه_پنیر":    {"emoji": "🧀", "buy_cost": 11000, "input": "شیر",      "input_qty": 80, "output": "پنیر",  "output_qty": 30, "seconds": 350},
+    "کارخونه_کیک":     {"emoji": "🎂", "buy_cost": 100000, "input": "شکر",      "input_qty": 30, "output": "کیک",   "output_qty": 10, "seconds": 400},
+    "کارخونه_پیتزا":   {"emoji": "🍕", "buy_cost": 130000, "input": "پنیر",     "input_qty": 20, "output": "پیتزا", "output_qty": 10, "seconds": 400},
+    "کارخونه_سوسیس":   {"emoji": "🌭", "buy_cost": 70000,  "input": "ارد",      "input_qty": 15, "output": "سوسیس", "output_qty": 10, "seconds": 200},
+    "کارخونه_هات_داگ": {"emoji": "🌭", "buy_cost": 90000,  "input": "سوسیس",    "input_qty": 10, "output": "هات_داگ", "output_qty": 10, "seconds": 250},
+    "کارخونه_فرنچ":    {"emoji": "🍟", "buy_cost": 80000,  "input": "سیب_زمینی", "input_qty": 30, "output": "فرنچ", "output_qty": 20, "seconds": 200},
+    "کارخونه_لباس":    {"emoji": "👚", "buy_cost": 140000, "input": "پارچه",    "input_qty": 20, "output": "لباس",  "output_qty": 10, "seconds": 400},
 }
 
 BUILDING_UPGRADE_RATIO = 0.5
@@ -89,11 +89,11 @@ BUY_CATALOG = {
 
 DEFAULT_BUY_PRICES = {"ارد": 5, "شکر": 6}
 DEFAULT_SELL_PRICES = {
-    "گندم": 42, "برنج": 52, "نیشکر": 49, "سیب_زمینی": 45,
-    "تخم_مرغ": 2, "پشم": 2, "شیر": 2,
-    "خمیر": 3, "نان": 6, "نخ": 3, "پارچه": 6, "ماست": 5, "نیمرو": 5,
-    "پنیر": 11, "کیک": 25, "پیتزا": 22, "سوسیس": 9, "هات_داگ": 12,
-    "فرنچ": 7, "لباس": 30, "ارد": 3, "شکر": 3,
+    "گندم": 90, "برنج": 150, "نیشکر": 80, "سیب_زمینی"  5,
+    "60:"تخم_مرغ": 50, "پشم": 70, "شیر":,
+    "خمیر": 100, "نان": 110, "نخ": 100, "پارچه": 80, "ماست": 90, "نیمرو": 5,
+    "پنیر": 330, "کیک": 2500, "پیتزا": 2200, "سوسیس": 800, "هات_داگ": 12,
+    "فرنچ": 800, "لباس": 550, "ارد": 95, "شکر": 3,
 }
 ALL_PRICED_ITEMS = sorted(set(DEFAULT_BUY_PRICES) | set(DEFAULT_SELL_PRICES))
 
